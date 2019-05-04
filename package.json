@@ -1,0 +1,28 @@
+{
+  "name": "NASA-API-Custom-Component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bots-node-sdk": "bots-node-sdk",
+    "help": "npm run bots-node-sdk -- --help",
+    "prepack": "npm run bots-node-sdk -- --pack --dry-run",
+    "start": "npm run bots-node-sdk -- --service ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x15F9/NASA-API-Custom-Component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x15F9/NASA-API-Custom-Component/issues"
+  },
+  "homepage": "https://github.com/0x15F9/NASA-API-Custom-Component#readme",
+  "devDependencies": {
+    "@oracle/bots-node-sdk": "^2.1.6",
+    "express": "^4.16.3"
+  }
+}
